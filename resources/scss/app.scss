@@ -28,34 +28,34 @@ body {
         width: auto;
         overflow: auto;
 
-        .ms-projects-container {
-          .ms-card {
-            position: relative;
-            border: 1px solid whitesmoke;
-          }
+        // .ms-projects-container {
+        //   .ms-card {
+        //     position: relative;
+        //     border: 1px solid whitesmoke;
+        //   }
 
-          a {
-            // display: block;
-            text-decoration: none;
-            // border: 1px solid whitesmoke;
-          }
+        //   a {
+        //     // display: block;
+        //     text-decoration: none;
+        //     // border: 1px solid whitesmoke;
+        //   }
 
-          img {
-            max-width: 20rem;
-          }
+        //   img {
+        //     max-width: 20rem;
+        //   }
 
-          .ms-modify {
-            position: absolute;
-            top: 1rem;
-            right: 4rem;
-          }
+        //   .ms-modify {
+        //     position: absolute;
+        //     top: 1rem;
+        //     right: 4rem;
+        //   }
 
-          .ms-project-delete {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-          }
-        }
+        //   .ms-project-delete {
+        //     position: absolute;
+        //     top: 1rem;
+        //     right: 1rem;
+        //   }
+        // }
 
         .ms-project-card {
           position: relative;

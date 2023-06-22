@@ -1,12 +1,12 @@
 <button type="button"
   class="btn btn-danger ms-project-delete"
   data-bs-toggle="modal"
-  data-bs-target="#deleteModal">
+  data-bs-target="#deleteModal{{$project->id}}">
   <i class="fa-solid fa-trash"></i>
 </button>
 
 <div class="modal fade text-black"
-  id="deleteModal"
+  id="deleteModal{{$project->id}}"
   tabindex="-1"
   aria-labelledby="exampleModalLabel"
   aria-hidden="true">
