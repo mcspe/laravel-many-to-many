@@ -23,12 +23,12 @@ class ProjectRequest extends FormRequest
      */
     public function rules()
     {
-        return [
-            'title' => 'required|min:3|max:50',
-            'summary' => 'required|min:3',
-            'languages' => 'required|min:1|max:255',
-            'link' => 'required|min:3|max:255'
-        ];
+      return [
+        'title' => 'required|min:3|max:50',
+        'summary' => 'required|min:3',
+        'languages' => 'required|min:1|max:255',
+        'link' => 'required|min:3|max:255'
+      ];
     }
 
     public function messages()

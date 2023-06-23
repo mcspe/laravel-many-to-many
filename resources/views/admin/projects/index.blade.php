@@ -25,7 +25,13 @@
             <td>
               <span class="badge rounded-pill text-bg-primary">{{ $project->type?->name }}</span>
             </td>
-            <td> - </td>
+            <td>
+              @forelse ($project->technologies as $technology)
+                <span class="badge rounded-pill text-bg-info">{{ $technology->name }}</span>
+              @empty
+                <span> - </span>
+              @endforelse
+            </td>
             <td>
               <a href="{{ route('admin.project.show', $project) }}" class="btn btn-secondary">
                 <i class="fa-regular fa-eye"></i>

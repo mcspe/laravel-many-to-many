@@ -22,89 +22,27 @@ body {
         height: calc(100% - 4rem);
         width: 15%;
       }
-
+    /* MAIN */
       main {
         height: calc(100% - 4rem);
         width: auto;
         overflow: auto;
 
-        // .ms-projects-container {
-        //   .ms-card {
-        //     position: relative;
-        //     border: 1px solid whitesmoke;
-        //   }
-
-        //   a {
-        //     // display: block;
-        //     text-decoration: none;
-        //     // border: 1px solid whitesmoke;
-        //   }
-
-        //   img {
-        //     max-width: 20rem;
-        //   }
-
-        //   .ms-modify {
-        //     position: absolute;
-        //     top: 1rem;
-        //     right: 4rem;
-        //   }
-
-        //   .ms-project-delete {
-        //     position: absolute;
-        //     top: 1rem;
-        //     right: 1rem;
-        //   }
-        // }
-
-        .ms-project-card {
-          position: relative;
-
-          .ms-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-            padding: 1rem;
-            border-left: 1px solid black;
-            border-bottom: 1px solid black;
-
-            .ms-tag {
-              font-weight: bold;
-            }
-
-            .ms-info {
-              color: blue;
-            }
-
-            img {
-              max-width: 30rem;
-              margin: 1rem;
-            }
-
-            button {
-              font-size: .7rem;
-            }
-
+        .ms-project-card-body {
+          .ms-tag {
+            font-weight: bold;
           }
 
-          .ms-modify {
-            position: absolute;
-            top: 1rem;
-            right: 4rem;
-          }
-
-          .ms-project-delete {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
+          .ms-info {
+            color: blue;
           }
         }
-
-        .ck-editor__editable_inline {
-          min-height: 250px;
-        }
-
       }
+
+      .ck-editor__editable_inline {
+        min-height: 250px;
+      }
+
+
   }
 }
